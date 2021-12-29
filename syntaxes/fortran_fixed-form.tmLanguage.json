@@ -2,7 +2,7 @@
   "comment": "Inherits rules from free form Fortran.",
   "name": "Fortran - Fixed Form",
   "scopeName": "source.fortran.fixed",
-  "fileTypes": ["f", "F", "f77", "F77", "for", "FOR"],
+  "fileTypes": ["f", "F", "f77", "F77", "for", "FOR", "fpp", "inc"],
   "injections": {
     "source.fortran.fixed - ( string | comment )": {
       "patterns": [
@@ -43,7 +43,7 @@
     },
     "line-end-comment": {
       "name": "comment.line-end.fortran",
-      "begin": "(?<=^.{72})(?!\\n)",
+      "begin": "(?<=^.{500})(?!\\n)",
       "end": "(?=\\n)"
     },
     "line-header": {
