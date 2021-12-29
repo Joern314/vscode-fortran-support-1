@@ -58,7 +58,8 @@
           ".for",
           ".FOR",
           ".fpp",
-          ".FPP"
+          ".FPP",
+          ".inc"
         ],
         "configuration": "./language-configuration.json"
       }
@@ -191,10 +192,10 @@
     "istanbul": "^0.4.5",
     "lint-staged": "^7.3.0",
     "mocha": "^2.3.3",
-    "remap-istanbul": "^0.8.4",
+    "remap-istanbul": "^0.13.0",
     "tslint": "^4.0.2",
-    "typescript": "^2.0.3",
-    "vscode": "^1.1.21"
+    "typescript": "^2.9.2",
+    "vscode": "^1.1.37"
   },
   "husky": {
     "hooks": {
@@ -207,6 +208,7 @@
     ]
   },
   "dependencies": {
+    "vsce": "^1.87.1",
     "vscode-languageclient": "^5.1.0"
   }
 }

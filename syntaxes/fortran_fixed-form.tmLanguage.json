@@ -10,7 +10,8 @@
                 "for",
                 "FOR",
                 "fpp",
-                "FPP"
+                "FPP",
+                "inc"
         ],
         "injections": {
                 "source.fortran.fixed - ( string | comment )": {
@@ -52,7 +53,7 @@
                 },
                 "line-end-comment": {
                         "name": "comment.line-end.fortran",
-                        "begin": "(?<=^.{72})(?!\\n)",
+                        "begin": "(?<=^.{500})(?!\\n)",
                         "end": "(?=\\n)"
                 },
                 "line-header": {
